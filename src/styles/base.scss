@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 900;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-07-Heavy.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-07-Heavy.ttf),
+    url(../../public/fonts/Yekan-Bakh-FaNum-07-Heavy.woff);
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 800;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-08-Fat.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-08-Fat.ttf),
+    url(../../public/fonts/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 400;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-04-Regular.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-04-Regular.ttf);
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 300;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-03-Light.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-03-Light.ttf),
+    url(../../public/fonts/Yekan-Bakh-FaNum-03-Light.woff);
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 700;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-06-Bold.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-06-Bold.ttf),
+    url(../../public/fonts/Yekan-Bakh-FaNum-06-Bold.woff);
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  font-weight: 500;
+  src: url(../../public/fonts/Yekan-Bakh-FaNum-05-Medium.eot),
+    url(../../public/fonts/Yekan-Bakh-FaNum-05-Medium.ttf),
+    url(../../public/fonts/Yekan-Bakh-FaNum-05-Medium.woff);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary;
+  }
+}

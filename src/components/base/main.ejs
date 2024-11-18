@@ -1,0 +1,20 @@
+<!doctype html>
+<html dir="rtl" lang="fa" data-theme="<%=theme%>">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+    <% if (styles) { %>
+    <% styles.forEach((item) => { %>
+    <link rel="stylesheet" href="<%= item %>" />
+    <% }) %>
+    <% } %>
+  </head>
+  <body class="<% if (bodyClass) { %><%= bodyClass %><% } %>">
+    <%- body %> <% if (scripts) { %> <% scripts.forEach((script) => { %>
+    <script src="<%= script %>"></script>
+    <% }) %>
+    <% } %>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
