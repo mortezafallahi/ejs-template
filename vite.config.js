@@ -4,10 +4,9 @@ import data from "./src/data";
 
 export default defineConfig({
   root: "src",
+  publicDir: "../public",
   build: {
     outDir: "../dist",
   },
-  plugins: [
-    ViteEjsPlugin(data)
-  ],
+  plugins: [ViteEjsPlugin(data)],
 });

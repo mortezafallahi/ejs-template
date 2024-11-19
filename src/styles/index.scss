@@ -1,0 +1,12 @@
+@import url("./fonts.scss");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary;
+  }
+}
+
+// @import url("./partials/services.scss");
