@@ -1,8 +1,15 @@
-<%- include("./components/base/Main.ejs", {
+<%- include('./components/base/Head.ejs',{
   theme: "light",
-  title: "test",
-  body: include("./pages/home/Home.ejs"),
+  title: "قرآن",
   bodyClass: "",
   styles: [],
-  scripts: [],
+}) %>
+
+<%- include('./components/Header.ejs') %>
+
+
+<%- include('./components/base/Foot.ejs',{
+  scripts: [
+
+ ],
 }) %>

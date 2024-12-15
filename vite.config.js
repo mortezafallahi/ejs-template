@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import { ViteEjsPlugin } from "vite-plugin-ejs";
-import data from "./src/data";
+import data from "./src/data/data";
 
 export default defineConfig({
   root: "src",

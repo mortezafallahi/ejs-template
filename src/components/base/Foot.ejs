@@ -1,0 +1,7 @@
+<% if (scripts) { %> <% scripts.forEach((script) => { %>
+    <script src="<%= script.src %>" type="<%= script.type %>"></script>
+    <% }) %>
+    <% } %>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

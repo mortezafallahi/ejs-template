@@ -10,11 +10,5 @@
     <% }) %>
     <% } %>
   </head>
-  <body class="<% if (bodyClass) { %><%= bodyClass %><% } %>">
-    <%- body %> <% if (scripts) { %> <% scripts.forEach((script) => { %>
-    <script src="<%= script %>"></script>
-    <% }) %>
-    <% } %>
-    <script type="module" src="./main.js"></script>
-  </body>
-</html>
+  <body class="<%= bodyClass %>">
+
