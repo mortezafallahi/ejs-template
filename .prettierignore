@@ -1,3 +1,5 @@
 node_modules/
 dist/
 public/
+src/components/base/Foot.ejs
+src/components/base/Head.ejs
