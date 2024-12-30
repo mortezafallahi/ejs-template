@@ -1,4 +1,4 @@
-@import url("./fonts.scss");
+@import url('./fonts.scss');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +9,21 @@
   }
 }
 
-// @import url("./partials/services.scss");
+.toastify {
+  @apply bg-base-300 bg-none;
+  &.success {
+    @apply bg-emerald-500;
+  }
+  &.error {
+    @apply bg-red-500;
+  }
+  &.info {
+    @apply bg-cyan-500;
+  }
+  &.warning {
+    @apply bg-yellow-500;
+  }
+  .toast-close {
+    @apply text-base-600 size-6 rounded-full bg-base-100 pt-1 text-xs;
+  }
+}
